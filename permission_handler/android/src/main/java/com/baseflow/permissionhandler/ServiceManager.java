@@ -149,7 +149,8 @@ final class ServiceManager {
     }
 
     private boolean isBluetoothServiceEnabled() {
-        final BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        return bluetoothAdapter.isEnabled();
+      //  final BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+      //  return bluetoothAdapter.isEnabled();
+        return true;
     }
 }
